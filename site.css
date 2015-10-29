@@ -56,26 +56,31 @@ h1 {
   color: #fff; }
 .work-item {
   flex: 1;
-  flex-direction: row
+  flex-direction: column;
   display: flex; align-items: center;
   padding: 48px 0;
   list-style: none;
+  text-align: center;
+
+  transition: all 250ms ease-in-out;
+}
+.work-item:hover {
+  background-color: #fff;
 }
 
 /* Brand colors. */
-/*.twitch { background-color: #6441a5 }*/
-/*.github { background-color: #181717 }*/
-.freelance { /* Figure out a color for this. */ }
-/*.automattic { background-color: #21759b }*/
-/*.facebook { background-color: #3b5998 }*/
+.twitch { background-color: #6441a5 }
+.github { background-color: #181717 }
+.automattic { background-color: #21759b }
+.facebook { background-color: #3b5998 }
 
 /* Brand marks. */
 .company {
   display: flex;
+  flex-direction: column;
   flex: 1; align-items: center; }
 .company-logo svg {
   width: 64px; height: 64px;
-  margin-right: 24px;
 }
 /*.company-name { visibility: hidden; }*/
 .company-logo {
