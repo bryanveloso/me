@@ -11,3 +11,10 @@ body {
 .freelance {}
 .automattic { background-color: blue }
 .facebook { background-color: #3b5998 }
+
+/* Brand marks. */
+.company-logo { width: 50px; height: 50px; }
+.twitch .company-logo { background-image: url('assets/svg/twitch.svg'); }
+.github .company-logo { background-image: url('assets/svg/github.svg'); }
+.automattic .company-logo { background-image: url('assets/svg/wordpress.svg'); }
+.facebook .company-logo { background-image: url('assets/svg/facebook.svg'); }
