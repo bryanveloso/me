@@ -5,16 +5,41 @@ body {
   /*background: #000;*/
 }
 
+/* Work items. */
+.work-items {
+  padding: 0;
+  color: #fff; }
+.work-item {
+  display: flex; align-items: center;
+  padding: 48px 24px;
+  list-style: none;
+}
+
+
 /* Brand colors. */
 .twitch { background-color: #6441a5 }
-.github { background-color: #4183c4 }
-.freelance {}
-.automattic { background-color: blue }
+.github { background-color: #181717 }
+.freelance { /* Figure out a color for this. */ }
+.automattic { background-color: #21759b }
 .facebook { background-color: #3b5998 }
 
 /* Brand marks. */
-.company-logo { width: 50px; height: 50px; }
+.company {
+  display: flex;
+  flex: 1; align-items: center; }
+.company-logo {
+  width: 48px; height: 48px;
+  margin-right: 24px;
+}
+/*.company-name { visibility: hidden; }*/
 .twitch .company-logo { background-image: url('assets/svg/twitch.svg'); }
 .github .company-logo { background-image: url('assets/svg/github.svg'); }
 .automattic .company-logo { background-image: url('assets/svg/wordpress.svg'); }
 .facebook .company-logo { background-image: url('assets/svg/facebook.svg'); }
+
+.work-tenure {
+  font-size: 18px;
+}
+.tenure-from { }
+.tenure-to {  }
+.tenure-separator { padding: 0 5px; }
