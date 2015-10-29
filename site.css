@@ -1,0 +1,13 @@
+/* Burn the box down and then rebuild it. */
+* { box-sizing: border-box; }
+
+body {
+  /*background: #000;*/
+}
+
+/* Brand colors. */
+.twitch { background-color: #6441a5 }
+.github { background-color: #4183c4 }
+.freelance {}
+.automattic { background-color: blue }
+.facebook { background-color: #3b5998 }
