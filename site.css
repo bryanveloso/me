@@ -2,6 +2,8 @@
 * { box-sizing: border-box; }
 
 body {
+  display: flex;
+
   background: #2a2a30;
   color: #fff;
   font-family: "Sentinel SSm A", "Sentinel SSm B";
@@ -10,10 +12,14 @@ body {
 .site {
   /*background: rgba(255, 255, 255, 0.1);*/
   /*margin: 96px; /* fix this D: */*/
-  /*padding: 24px;*/
-
+  flex: 1;
+  order: 2;
+  padding: 48px;
 }
 
+.site > header {
+  margin: 96px 0 48px;
+}
 h1 {
   position: relative;
   font-weight: 100;
@@ -108,3 +114,17 @@ h1 {
 .tenure-from { }
 .tenure-to {  }
 .tenure-separator { padding: 0 5px; }
+
+/* */
+body > aside {
+  order: 1;
+  background: #000;
+  width: 64px;
+  position: relative;
+}
+.widget-thing {
+  position: fixed; bottom: 0; left: 0;
+  transform: rotate(-90deg);
+  line-height: 154px;
+  width: 64px;
+}
