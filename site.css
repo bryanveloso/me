@@ -37,6 +37,15 @@ body {
 .automattic .company-logo { background-image: url('assets/svg/wordpress.svg'); }
 .facebook .company-logo { background-image: url('assets/svg/facebook.svg'); }
 
+.company-name {
+  font-size: 24px;
+}
+.employee-number {
+  display: block;
+  font-size: 18px;
+  font-weight: 100;
+}
+
 .work-tenure {
   font-size: 18px;
 }
