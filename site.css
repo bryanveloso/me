@@ -45,16 +45,18 @@ h1 {
 
 /* Work items. */
 .work {
-  display: flex;
+  /*display: flex;*/
 }
 
 .work-items {
-  flex: 1;
+  display: flex;
   padding: 0;
   font-family: 'Gotham SSm A', 'Gotham SSm B';
   font-weight: 200;
   color: #fff; }
 .work-item {
+  flex: 1;
+  flex-direction: row
   display: flex; align-items: center;
   padding: 48px 0;
   list-style: none;
@@ -71,7 +73,7 @@ h1 {
 .company {
   display: flex;
   flex: 1; align-items: center; }
-.company-logo {
+.company-logo svg {
   width: 64px; height: 64px;
   margin-right: 24px;
 }
