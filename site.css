@@ -10,8 +10,6 @@ body {
 }
 
 .site {
-  /*background: rgba(255, 255, 255, 0.1);*/
-  /*margin: 96px; /* fix this D: */*/
   flex: 1;
   order: 2;
   padding: 48px;
@@ -30,10 +28,10 @@ h1 {
 }
 .name-first { z-index: 5; }
 .name-separator {
-  font-weight: 300;
+  font-weight: 100;
   color: #3a3a40;
   position: absolute;
-  font-size: 64px;
+  font-size: 76px;
   left: 120px;
   z-index: -1;
 }
@@ -42,11 +40,16 @@ h1 {
 }
 
 .tagline {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 /* Work items. */
+.work {
+  display: flex;
+}
+
 .work-items {
+  flex: 1;
   padding: 0;
   font-family: 'Gotham SSm A', 'Gotham SSm B';
   font-weight: 200;
@@ -122,9 +125,30 @@ body > aside {
   width: 64px;
   position: relative;
 }
+.avatar {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  position: absolute;
+  top: 18px; left: 50%;
+  margin-left: -18px;
+}
 .widget-thing {
-  position: fixed; bottom: 0; left: 0;
+  position: fixed; bottom: 24px; left: 0;
   transform: rotate(-90deg);
-  line-height: 154px;
+  line-height: 64px;
   width: 64px;
+}
+
+
+
+
+.site section {
+  position: relative;
+}
+.site section:before {
+  content: '';
+  width: 40%; height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 0;
 }
