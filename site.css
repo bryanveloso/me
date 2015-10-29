@@ -2,7 +2,15 @@
 * { box-sizing: border-box; }
 
 body {
-  /*background: #000;*/
+  background: #2a2a30;
+  color: #fff;
+}
+
+.site {
+  /*background: rgba(255, 255, 255, 0.1);*/
+  /*margin: 96px; /* fix this D: */*/
+  /*padding: 24px;*/
+
 }
 
 /* Work items. */
@@ -15,20 +23,19 @@ body {
   list-style: none;
 }
 
-
 /* Brand colors. */
-.twitch { background-color: #6441a5 }
-.github { background-color: #181717 }
+/*.twitch { background-color: #6441a5 }*/
+/*.github { background-color: #181717 }*/
 .freelance { /* Figure out a color for this. */ }
-.automattic { background-color: #21759b }
-.facebook { background-color: #3b5998 }
+/*.automattic { background-color: #21759b }*/
+/*.facebook { background-color: #3b5998 }*/
 
 /* Brand marks. */
 .company {
   display: flex;
   flex: 1; align-items: center; }
 .company-logo {
-  width: 48px; height: 48px;
+  width: 64px; height: 64px;
   margin-right: 24px;
 }
 /*.company-name { visibility: hidden; }*/
@@ -42,7 +49,7 @@ body {
 }
 .employee-number {
   display: block;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 100;
 }
 
